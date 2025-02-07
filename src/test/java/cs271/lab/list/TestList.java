@@ -179,6 +179,10 @@ public class TestList {
     list.add(55);
     list.add(77);
     list.add(66);
+
+    list.set(1,99);
+    list.set(3,99);
+    list.set(5,99);
     // TODO use the set method to change specific elements in the list
     // such that the following assertions pass
     // (without touching the assertions themselves)
